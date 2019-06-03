@@ -16,9 +16,11 @@
 		B4788F4F2285288B00326CB0 /* TagalongTrialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4788F4E2285288B00326CB0 /* TagalongTrialUITests.swift */; };
 		B480F07722A0697000403227 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480F07622A0697000403227 /* LoginPage.swift */; };
 		B480F07922A06FB200403227 /* RegisterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480F07822A06FB200403227 /* RegisterPage.swift */; };
-		B480F07B22A07E9D00403227 /* Roboto in Resources */ = {isa = PBXBuildFile; fileRef = B480F07A22A07E9D00403227 /* Roboto */; };
 		B480F07D22A0945700403227 /* FriendsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480F07C22A0945700403227 /* FriendsPage.swift */; };
 		B480F07F22A094A100403227 /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480F07E22A094A100403227 /* ProfilePage.swift */; };
+		B480F08122A0CE1600403227 /* AddFriendPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480F08022A0CE1600403227 /* AddFriendPopUp.swift */; };
+		B480F08322A0CE5E00403227 /* CreateGroupPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480F08222A0CE5E00403227 /* CreateGroupPopUp.swift */; };
+		B480F08522A0CECB00403227 /* Roboto in Resources */ = {isa = PBXBuildFile; fileRef = B480F08422A0CECB00403227 /* Roboto */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,9 +56,11 @@
 		B4788F502285288B00326CB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B480F07622A0697000403227 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
 		B480F07822A06FB200403227 /* RegisterPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPage.swift; sourceTree = "<group>"; };
-		B480F07A22A07E9D00403227 /* Roboto */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Roboto; path = ../../../Downloads/Roboto; sourceTree = "<group>"; };
 		B480F07C22A0945700403227 /* FriendsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsPage.swift; sourceTree = "<group>"; };
 		B480F07E22A094A100403227 /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
+		B480F08022A0CE1600403227 /* AddFriendPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendPopUp.swift; sourceTree = "<group>"; };
+		B480F08222A0CE5E00403227 /* CreateGroupPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupPopUp.swift; sourceTree = "<group>"; };
+		B480F08422A0CECB00403227 /* Roboto */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Roboto; path = ../../../../../Downloads/Roboto; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,11 +117,13 @@
 				B480F07C22A0945700403227 /* FriendsPage.swift */,
 				B480F07622A0697000403227 /* LoginPage.swift */,
 				B480F07E22A094A100403227 /* ProfilePage.swift */,
+				B480F08222A0CE5E00403227 /* CreateGroupPopUp.swift */,
 				B4788F322285288800326CB0 /* Main.storyboard */,
+				B480F08022A0CE1600403227 /* AddFriendPopUp.swift */,
 				B4788F352285288B00326CB0 /* Assets.xcassets */,
 				B4788F372285288B00326CB0 /* LaunchScreen.storyboard */,
 				B4788F3A2285288B00326CB0 /* Info.plist */,
-				B480F07A22A07E9D00403227 /* Roboto */,
+				B480F08422A0CECB00403227 /* Roboto */,
 			);
 			path = TagalongTrial;
 			sourceTree = "<group>";
@@ -249,10 +255,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B480F08522A0CECB00403227 /* Roboto in Resources */,
 				B4788F392285288B00326CB0 /* LaunchScreen.storyboard in Resources */,
 				B4788F362285288B00326CB0 /* Assets.xcassets in Resources */,
 				B4788F342285288800326CB0 /* Main.storyboard in Resources */,
-				B480F07B22A07E9D00403227 /* Roboto in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,8 +286,10 @@
 				B480F07F22A094A100403227 /* ProfilePage.swift in Sources */,
 				B4788F312285288800326CB0 /* ViewController.swift in Sources */,
 				B480F07722A0697000403227 /* LoginPage.swift in Sources */,
+				B480F08122A0CE1600403227 /* AddFriendPopUp.swift in Sources */,
 				B4788F2F2285288800326CB0 /* AppDelegate.swift in Sources */,
 				B480F07922A06FB200403227 /* RegisterPage.swift in Sources */,
+				B480F08322A0CE5E00403227 /* CreateGroupPopUp.swift in Sources */,
 				B480F07D22A0945700403227 /* FriendsPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
